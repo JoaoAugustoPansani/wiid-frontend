@@ -103,10 +103,6 @@ function App() {
       .then(mn => setMenu(mn))
   }, [setMenu]);
 
-  console.log( menu )
-
-
-
   useEffect(() => {
     //Body background color set to theme color
     document.body.style.background = theme.backgroundColor;

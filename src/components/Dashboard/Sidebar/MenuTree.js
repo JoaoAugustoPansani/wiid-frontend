@@ -18,8 +18,6 @@ const MenuTree = (props) => {
     //Getting data from items API
     const response = await fetch(`http://my-json-server.typicode.com/workinideas/vagafrontendteste/items/${id}`)
       .then(res => res.json());
-     
-      console.log(response)
 
     if (response.subMenuItems == undefined) {
       props.setMenuItems([]);

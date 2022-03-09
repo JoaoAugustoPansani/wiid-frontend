@@ -37,8 +37,7 @@ const MenuContent = (props) => {
     function archiveFilter(item) {
         return !filteredItems.includes(item.id)
     };
-
-    console.log(anyItemChecked)
+    
     return <Box sx={{
         display: 'flex',
         flexDirection: 'column',
